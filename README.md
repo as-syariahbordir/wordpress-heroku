@@ -1,7 +1,7 @@
 # [WordPress](https://wordpress.org/) on [Heroku](http://heroku.com)
 
 Project Information:
-Wordpress can be hosting at heroku cost 0$ a month, included WooCommerce inside.
+Wordpress can be hosting at heroku. Expand cost 0$ a month, included WooCommerce inside.
 
 ## Changelog
 
