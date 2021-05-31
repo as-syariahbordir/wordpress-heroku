@@ -1,0 +1,39 @@
+{
+    "name": "wp-cli/search-replace-command",
+    "description": "Searches/replaces strings in the database.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/wp-cli/search-replace-command",
+    "support": {
+        "issues": "https://github.com/wp-cli/search-replace-command/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bachhuber",
+            "email": "daniel@runcommand.io",
+            "homepage": "https://runcommand.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [ "search-replace-command.php" ]
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "wp-cli/wp-cli": "^1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "bundled": true,
+        "commands": [
+            "search-replace"
+        ]
+    }
+}

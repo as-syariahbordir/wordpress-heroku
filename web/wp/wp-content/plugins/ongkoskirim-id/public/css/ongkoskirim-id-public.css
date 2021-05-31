@@ -1,0 +1,8 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.form-row .select2 {
+    width: 100% !important;
+}

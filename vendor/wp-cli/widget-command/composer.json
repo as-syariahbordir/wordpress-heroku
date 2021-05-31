@@ -1,0 +1,50 @@
+{
+    "name": "wp-cli/widget-command",
+    "description": "Adds, moves, and removes widgets; lists sidebars.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/wp-cli/widget-command",
+    "support": {
+        "issues": "https://github.com/wp-cli/widget-command/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bachhuber",
+            "email": "daniel@runcommand.io",
+            "homepage": "https://runcommand.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [
+            "widget-command.php"
+        ]
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "wp-cli/wp-cli": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "commands": [
+            "widget",
+            "widget add",
+            "widget deactivate",
+            "widget delete",
+            "widget list",
+            "widget move",
+            "widget reset",
+            "widget update",
+            "sidebar",
+            "sidebar list"
+        ],
+        "bundled": true
+    }
+}

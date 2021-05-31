@@ -1,0 +1,78 @@
+#newfb_product_set_parent {
+	display: none;
+}
+
+#woocommerce-product-data .fb-product-image-source-field .wc-radios {
+	width: auto;
+}
+
+/* added #woocommerce-product-data to increase selector specificity */
+#woocommerce-product-data .fb-product-image-source-field .wc-radios li {
+	margin-bottom: 0;
+}
+#woocommerce-product-data .fb-product-image-source-field .wc-radios li:last-child {
+	padding-bottom: 0;
+}
+
+/* add padding-top for first radio button in variation fields */
+#woocommerce-product-data .woocommerce_variation .fb-product-image-source-field .wc-radios li:first-child {
+	padding-top: 10px;
+}
+
+.woocommerce_variation .fb-product-image-source-field {
+	margin: 1em 0;
+}
+
+.woocommerce_variation .fb-product-image-source-field legend {
+	float: left;
+	padding-inline-start: 0;
+	padding-inline-end: 0;
+}
+
+.woocommerce_variation .fb-product-image-source-field .woocommerce-help-tip {
+	float: left;
+	margin-left: 4px;
+	vertical-align: top;
+}
+
+.woocommerce_variation .fb-product-image-source-field .wc-radios {
+	clear: both;
+}
+
+#woocommerce-product-data .wc_facebook_commerce_enabled_field label,
+#woocommerce-product-data .wc_facebook_commerce_fields label {
+	padding-right: 37px;
+	position: relative;
+	width: 113px;
+}
+#woocommerce-product-data .wc_facebook_commerce_enabled_field label .woocommerce-help-tip,
+#woocommerce-product-data .wc_facebook_commerce_fields label .woocommerce-help-tip {
+	margin: 0;
+	position: absolute;
+	top: 4px;
+	right: 12px;
+}
+
+#woocommerce-product-data #wc-facebook-google-product-category-fields {
+	width: 50%;
+}
+
+#woocommerce-product-data .wc-facebook-google-product-category-field select {
+	float: none;
+	width: 100%;
+	max-width: none;
+}
+
+#woocommerce-product-data #wc-facebook-google-product-category-fields .select2-container {
+	float: none;
+	width: 100% !important;
+}
+
+.notice .button.js-wc-plugin-framework-notice-dismiss {
+	margin-left: 10px;
+}
+
+/* adjusts widths of the products table, same as WooCommerce categories and tags */
+.column-facebook_sync {
+	width: 11% !important;
+}

@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OngkosKirim.id\n"
+"POT-Creation-Date: 2017-09-15 10:22+0700\n"
+"PO-Revision-Date: 2017-09-15 10:22+0700\n"
+"Last-Translator: \n"
+"Language-Team: ogi@jogjacamp.co.id\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-ongkoskirim-id-admin.php:154
+msgid "Settings"
+msgstr ""
+
+#: admin/class-ongkoskirim-id-admin.php:155
+msgid "Docs"
+msgstr ""
+
+#: admin/partials/ongkoskirim-id-admin-settings-page-header.php:14
+msgid "Butuh bantuan?"
+msgstr "Need Helps?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page-header.php:15
+msgid "Baca"
+msgstr "Read our"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page-header.php:15
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page-header.php:15
+msgid "atau kontak kami"
+msgstr "or contact us"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page-header.php:15
+msgid "di sini"
+msgstr "here"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:1
+#: includes/class-ongkoskirim-id-shipping-method.php:25
+msgid "OngkosKirim.id"
+msgstr ""
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:12
+msgid "Versi OngkosKirim.id"
+msgstr "OngkosKirim.id's Version"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:18
+msgid "Gratis"
+msgstr "Free"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:26
+msgid "Apakah Anda menggunakan versi gratis atau berbayar?"
+msgstr "Which ongkoskirim.id version do you want to use? Free or Paid?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:32
+msgid "Lisensi OngkosKirim.id"
+msgstr "OngkosKirim.id License"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:61
+msgid ""
+"Kode Lisensi Plugin OngkosKirim.id versi PRO. <br>Dapatkan lisensinya <a "
+"target=\"_blank\" href=\"https://ongkoskirim.id/plugin/\">di sini</a>"
+msgstr ""
+"OngkosKirim.id Pro Version's License Code. <br>Get the license <a target="
+"\"_blank\" href=\"https://ongkoskirim.id/plugin/\">here</a>"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:70
+msgid "Pilih Ekspedisi"
+msgstr "Choose Expedition"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:91
+msgid "Beberapa ekspedisi hanya bisa digunakan di versi PRO."
+msgstr "Some expeditions only available in PRO version."
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:91
+msgid "Upgrade sekarang"
+msgstr "Upgrade Now"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:97
+msgid "Lokasi Toko"
+msgstr "Store Location"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:102
+#: public/class-ongkoskirim-id-public.php:224
+msgid "Pilih Kota"
+msgstr "Choose City"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:119
+msgid "Pilih kota asal perhitungan ongkos kirim"
+msgstr "Choose city location where your store located"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:128
+msgid "Tampilkan berat pengiriman?"
+msgstr "Show shipping weight?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:135
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:159
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:219
+msgid "Ya"
+msgstr "Yes"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:139
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:163
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:221
+msgid "Tidak"
+msgstr "No"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:146
+msgid "Apakah berat pengiriman akan ditampilkan dihalaman checkout?"
+msgstr "Do you want the shipping weight information shown in checkout page?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:152
+msgid "Aktifkan Kode Unik Untuk Setiap Pembelian?"
+msgstr "Add Unique Code for each orders?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:170
+msgid ""
+"Untuk mempermudah cek mutasi transaksi di rekening bank, Anda bisa "
+"mengaktifkan kode unik. <br>Biaya kode unik akan ditambahkan otomatis pada "
+"total belanja tiap pembelian."
+msgstr ""
+"To help you differentiate between each bank wire transfer from your buyer, "
+"<br>the system will add a small amount of money to the total transactions of "
+"each order."
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:176
+msgid "Berapa Digit Kode Uniknya?"
+msgstr "How many unique code digit?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:192
+msgid "Panjang digit kode unik"
+msgstr "Number of digit of the unique code"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:198
+msgid "Default Berat Pengiriman"
+msgstr "Default Shipping Weight"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:206
+msgid ""
+"Jika berat produk tidak diisi, setiap produk akan dihitung menggunakan berat "
+"default ini"
+msgstr ""
+"If the product doesn't have weight, the system will use this default "
+"shipping weight"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:212
+msgid "Kenakan Biaya Tambahan Ongkos Kirim?"
+msgstr "Charge Additional Amount of Shipping Cost?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:227
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:242
+msgid "Biaya tambahan yang dikenakan ke pembeli untuk setiap pengiriman."
+msgstr "Additional cost for your buyer for each orders."
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:234
+msgid "Tambahan biaya ongkos kirim"
+msgstr "How much is the additional shipping cost?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:249
+msgid "Toleransi berat pengiriman"
+msgstr "Shipping weight tolerance"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:257
+msgid ""
+"Berapa gram toleransi berat pengirimannya? Misalnya toleransi 300 gram, maka "
+"jika total belanja adalah 2200 gram, akan dihitung sebagai 2 kg"
+msgstr ""
+"How many gram is the shipping weight tolerance? For example if you set "
+"tolerang 300 gram, when your customer order 2200 gram weight in total, the "
+"shipping cost will be counted as 2kg"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:263
+msgid "Hapus Cache"
+msgstr "Clear Cache"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:267
+msgid "Apakah Anda yakin untuk menghapus cache nya?"
+msgstr "Are you sure to clear the cache?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:267
+msgid "Hapus"
+msgstr "Clear"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:271
+msgid "Hapus data cache, dan ambil data terbaru dari OngkosKirim.id"
+msgstr "Clear cache and load the new data from OngkosKirim.id"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:277
+msgid "Reset Konfigurasi"
+msgstr "Configuration Reset"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:281
+msgid "Apakah Anda yakin mengembalikan konfigurasi ke awal?"
+msgstr "Are you sure to reset the configuration?"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:281
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/partials/ongkoskirim-id-admin-settings-page.php:285
+msgid "Kembalikan konfigurasi ke default"
+msgstr "Reset configuration, this one cannot be undone"
+
+#: includes/class-ongkoskirim-id-shipping-method.php:26
+msgid "Ongkos Kirim untuk ekspedisi Indonesia (JNE, Tiki, Wahana, dll)"
+msgstr "Shipping Cost for Indonesian Expedition (JNE, Tiki, Wahana, dll)"
+
+#: includes/class-ongkoskirim-id-shipping-method.php:35
+msgid "OngkosKirim.id Shipping"
+msgstr "OngkosKirim.id Shipping"
+
+#: includes/class-ongkoskirim-id-shipping-method.php:76
+msgid "Enable"
+msgstr ""
+
+#: includes/class-ongkoskirim-id-shipping-method.php:78
+msgid "Aktifkan plugin pengiriman ini"
+msgstr "Activate this shipping plugin"
+
+#: public/class-ongkoskirim-id-public.php:145
+msgid "Pilih Provinsi"
+msgstr "Choose State"
+
+#: public/class-ongkoskirim-id-public.php:146
+msgid "Provinsi"
+msgstr "State"
+
+#: public/class-ongkoskirim-id-public.php:182
+msgid "Pilih Kota / Kabupaten"
+msgstr "Choose City"
+
+#: public/class-ongkoskirim-id-public.php:183
+msgid "Kota / Kabupaten"
+msgstr "City"
+
+#: public/class-ongkoskirim-id-public.php:195
+#: public/class-ongkoskirim-id-public.php:223
+msgid "Pilih Kecamatan"
+msgstr "Choose District"
+
+#: public/class-ongkoskirim-id-public.php:196
+#: public/class-ongkoskirim-id-public.php:222
+msgid "Kecamatan"
+msgstr "District"
+
+#: public/class-ongkoskirim-id-public.php:225
+msgid "Loading"
+msgstr "Loading"
+
+#: public/class-ongkoskirim-id-public.php:374
+msgid "Kode Unik"
+msgstr "Unique Code"
+
+#: public/class-ongkoskirim-id-public.php:391
+msgid "Berat Pengiriman"
+msgstr "Shipping Weight"

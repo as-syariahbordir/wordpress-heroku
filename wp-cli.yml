@@ -1,0 +1,4 @@
+path: web/wp
+disabled_commands: [
+	"core config"
+]

@@ -1,0 +1,42 @@
+{
+    "name": "wp-cli/media-command",
+    "description": "Imports files as attachments, regenerates thumbnails, or lists registered image sizes.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/wp-cli/media-command",
+    "support": {
+        "issues": "https://github.com/wp-cli/media-command/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bachhuber",
+            "email": "daniel@runcommand.io",
+            "homepage": "https://runcommand.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        },
+        "files": [ "media-command.php" ]
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "wp-cli/wp-cli": "^1.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "bundled": true,
+        "commands": [
+            "media",
+            "media import",
+            "media regenerate",
+            "media image-size"
+        ]
+    }
+}

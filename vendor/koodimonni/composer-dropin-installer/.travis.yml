@@ -1,0 +1,34 @@
+# This uses newer and faster docker based build system
+sudo: false
+
+language: php
+
+php:
+  - '5.6'
+  - '7.0'
+  - hhvm
+  - nightly
+
+matrix:
+  allow_failures:
+    - php: nightly
+
+before_script:
+  - composer self-update
+
+  # We use the same repo straight from github because it required lesser amount of hacks
+  # Here we force the same current git commit id for composer
+  - sed -i -e "s|%%TRAVIS_COMMIT%%|$TRAVIS_COMMIT|g" tests/composer.json
+
+  # Install test run into tests/ folder using tests/composer.json
+  - composer install --working-dir=./tests/
+
+script:
+  # Sanity php syntax check
+  - php -d error_reporting=32767 -l src/Dropin.php
+
+  # Sanity composer check
+  - composer validate composer.json
+
+  # Run the real tests finally
+  - "phpunit tests/*.php"

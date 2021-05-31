@@ -1,0 +1,28 @@
+{
+    "name": "koodimonni/composer-dropin-installer",
+    "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+    "license": "WTFPL",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Onni Hakala",
+            "email": "onni@koodimonni.fi",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koodimonni\\Composer\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Koodimonni\\Composer\\Dropin"
+    }
+}

@@ -1,0 +1,31 @@
+- pipeline: 'Static Application Security Testing'
+  trigger_mode: ON_EVERY_PUSH
+  ref_name: refs/pull/*
+  ref_type: WILDCARD
+  auto_clear_cache: true
+  fetch_all_ref: true
+  trigger_condition: ALWAYS
+  actions:
+    - action: 'Run SAST'
+      type: RUN_DOCKER_CONTAINER
+      trigger_condition: VAR_IS
+      trigger_variable_value: "master"
+      trigger_variable_key: "BUDDY_EXECUTION_PULL_REQUEST_BASE_BRANCH"
+      docker_image_name: xendit/sast
+      docker_image_tag: latest
+      integration_hash: 5e85761fc5f225000f97dd99
+      region: ap-southeast-1
+      inline_commands: run.sh
+      volume_mappings:
+        - '/:/usr/deploy'
+      variables:
+        - key: OWNER
+          value: tpi
+    - action: "Send notification to channel"
+      type: "SLACK"
+      trigger_time: "ON_FAILURE"
+      content: "$BUDDY_PIPELINE_NAME execution failed. Please check details in Sonarqube"
+      blocks: "[{\"type\":\"section\",\"fields\":[{\"type\":\"mrkdwn\",\"text\":\"*Failed execution:* <$BUDDY_EXECUTION_URL|Execution #$BUDDY_EXECUTION_ID $BUDDY_EXECUTION_COMMENT>\"},{\"type\":\"mrkdwn\",\"text\":\"*Pipeline:* <$BUDDY_PIPELINE_URL|$BUDDY_PIPELINE_NAME>\"},{\"type\":\"mrkdwn\",\"text\":\"*Sonar Link:* <https://sonar.tidnex.com/project/issues?id=$BUDDY_PROJECT_NAME&resolved=false&types=VULNERABILITY&severities=BLOCKER|$BUDDY_PROJECT_NAME>\"},{\"type\":\"mrkdwn\",\"text\":\"*Project:* <$BUDDY_PROJECT_URL|$BUDDY_PROJECT_NAME>\"}]}]"
+      channel: "C01G4EK29QR"
+      trigger_condition: "ALWAYS"
+      integration_hash: "5ea6524a42eba4000eb35fbb" 
