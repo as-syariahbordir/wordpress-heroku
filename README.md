@@ -11,6 +11,8 @@ Wordpress can be hosting at heroku. Expand cost 0$ a month, included WooCommerce
 * Bedrock 1.7.9
 * WordPress 5.7.2
 * WooCommerce 4.9.0
+* Midtrans Payment Pluggin
+* Xendit Payment Pluggin
 * Added Offload Media Pluggin (Google Cloud Storage, Amazone S3, Digitalocean Space)
 * All Woo requiry Plugin Added
 
