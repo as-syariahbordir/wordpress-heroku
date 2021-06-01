@@ -31,25 +31,27 @@
 	"koodimonni/composer-dropin-installer": "1.1.0",
 	"johnpbloch/wordpress": "5.7.2",
 	"roots/wp-password-bcrypt": "1.0.0",
-	"wpackagist-plugin/nginx-helper": "1.9.10",
-	"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
 	"frc/batcache": "1.3-a2",
-	"wpackagist-plugin/redis-cache": "1.3.5",
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
+	"woocommerce/woocommerce": "4.9.0",
+	"wpackagist-plugin/nginx-helper": "1.9.10",
+	"wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
+	"wpackagist-plugin/redis-cache": "1.3.5",
 	"wpackagist-plugin/debug-bar": "0.9",
-    "woocommerce/woocommerce": "4.9.0",
-    "wpackagist-plugin/jetpack":"dev-trunk",
-    "wpackagist-plugin/midtrans-woocommerce":"2.22.0",
-    "wpackagist-plugin/woo-xendit-virtual-accounts":"2.24.1",
-    "wpackagist-plugin/ongkoskirim-id":"1.0.6",
-    "wpackagist-plugin/facebook-for-woocommerce":"2.5.1",
-    "wpackagist-theme/wp-bootstrap-starter":"3.5.3"
+	"wpackagist-plugin/jetpack":"dev-trunk",
+	"wpackagist-plugin/midtrans-woocommerce":"2.22.0",
+	"wpackagist-plugin/woo-xendit-virtual-accounts":"2.24.1",
+	"wpackagist-plugin/ongkoskirim-id":"1.0.6",
+	"wpackagist-plugin/facebook-for-woocommerce":"2.5.1",
+	"wpackagist-plugin/amazon-s3-and-cloudfront":"2.5.3",
+	"wpackagist-theme/wp-bootstrap-starter":"3.5.3",
+	"wpackagist-theme/ecommerce-zone":"0.3.9"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
 	"squizlabs/php_codesniffer": "3.2.2",
-    "bamarni/composer-bin-plugin": "dev-master"
+        "bamarni/composer-bin-plugin": "dev-master"
   },
   "extra": {
 	"installer-paths": {
@@ -63,12 +65,12 @@
 		"humanmade/s3-uploads"
 	  ],
 	  "web/app/plugins/{$name}/": [
-        "type:wordpress-plugin"
+            "type:wordpress-plugin"
         
 	  ],
 	  "web/app/themes/{$name}/": [
-        "type:wordpress-theme",
-        "wp-bootstrap-starter"
+            "type:wordpress-theme",
+            "wp-bootstrap-starter"
 	  ]
 	},
 	"dropin-paths": {
