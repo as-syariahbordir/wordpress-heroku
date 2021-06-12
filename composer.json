@@ -44,7 +44,11 @@
 	"wpackagist-plugin/woo-xendit-virtual-accounts":"2.24.1",
 	"wpackagist-plugin/ongkoskirim-id":"1.0.6",
 	"wpackagist-plugin/facebook-for-woocommerce":"2.5.1",
-	"wpackagist-plugin/amazon-s3-and-cloudfront":"2.5.3",
+	"wpackagist-plugin/amazon-s3-and-cloudfront":"2.5.3"
+    	"wpackagist-plugin/wp-whatsapp":"3.0.5",
+    	"wpackagist-plugin/autoptimize":"2.8.4",
+    	"wpackagist-plugin/kingcomposer":"dev-trunk",
+    	"wpackagist-theme/dazzling":"2.1.3",
 	"wpackagist-theme/wp-bootstrap-starter":"3.5.3",
 	"wpackagist-theme/ecommerce-zone":"0.3.9"
   },
