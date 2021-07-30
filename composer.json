@@ -3,7 +3,7 @@
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate woocommers with midtrans & xendit",
-  "homepage": "https://midtrans-tests.herokuapp.com/",
+  "homepage": "https://as-syariahbordir.herokuapp.com/",
   "keywords": [
 	"bedrock", "wordpress", "woocommerce", "stack", "composer", "heroku", "wp"
   ],
