@@ -5,6 +5,8 @@ Wordpress can be hosting at heroku. Expand cost 0$ a month, included WooCommerce
 
 ### [DEMO](https://as-syariahbordir.herokuapp.com/)
 
+noted: *use composer v.1
+
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/as-syariahbordir/wordpress-heroku)
 
 ## Changelog
