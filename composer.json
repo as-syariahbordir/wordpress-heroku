@@ -50,7 +50,7 @@
     	"wpackagist-plugin/yith-woocommerce-wishlist":"3.0.22",
     	"wpackagist-plugin/autoptimize":"2.8.4",
     	"wpackagist-plugin/kingcomposer":"dev-trunk",
-    	"wpackagist-plugin/elementor":"3.3.5",
+    	"wpackagist-plugin/elementor":"dev-trunk",
     	"wpackagist-theme/astra":"3.6.7"
   },
   "require-dev": {
