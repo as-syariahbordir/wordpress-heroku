@@ -8,6 +8,9 @@ Wordpress can be hosting at heroku. Expand cost 0$ a month, included WooCommerce
 noted: *use composer v.1
 <pre>
 composer install
+</pre>
+then
+<pre>
 composer update
 </pre>
 
