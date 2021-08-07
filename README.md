@@ -17,6 +17,7 @@ noted: *use composer v.1
 * Added Wordpress-core 5.8.0
 * Added Elementor-pro 3.3.5
 * Added Theme [Astra](https://wpastra.com/)
+* Update S3-Upload 3.0.3
 
 #### 0.3 (2021-05-30)
 * Bedrock 1.7.9
