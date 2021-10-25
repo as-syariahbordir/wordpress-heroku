@@ -18,6 +18,10 @@ composer update
 
 ## Changelog
 
+#### 0.4.1 (2021-10-25)
+* Update to Wordpress 5.8.0
+* Added Theme ecommerce-zone 0.3.9
+
 #### 0.4 (2021-07-29)
 * Update to Wordpress 5.8.0
 * Added Wordpress-core-installer 2.0.0
