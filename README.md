@@ -20,7 +20,7 @@ composer update
 
 #### 0.5 (2022-02-25)
 * Update to Wordpress 5.9.1
-* Update sendgrid email 1.11.9
+* Deleted sendgrid email 1.11.9
 * Update wp-whatsapp 3.1.4
 
 
