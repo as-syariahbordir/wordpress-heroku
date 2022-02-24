@@ -14,7 +14,7 @@
 * Added Wordpress-core-installer 2.0.0
 * Added Wordpress-core 5.8.0
 * Added Elementor-pro 3.3.5
-* Added Theme [Astra](https://wpastra.com/)
+* Added Theme Astra
 * Update S3-Uploads 3.0.3
 
 #### 0.3 (2021-05-30)
