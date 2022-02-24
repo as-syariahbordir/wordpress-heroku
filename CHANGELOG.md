@@ -1,4 +1,13 @@
+
 ## Changelog
+
+#### 0.5 (2022-02-25)
+* Update to Wordpress 5.9.1
+
+
+#### 0.4.1 (2021-10-25)
+* Update to Wordpress 5.8.1
+* Added Theme ecommerce-zone 0.3.9
 
 #### 0.4 (2021-07-29)
 * Update to Wordpress 5.8.0
@@ -11,8 +20,11 @@
 #### 0.3 (2021-05-30)
 * Bedrock 1.7.9
 * WordPress 5.7.2
-* WooCommerces 4.9.0
-* All Plugin Added
+* WooCommerce 4.9.0
+* Midtrans Payment Pluggin
+* Xendit Payment Pluggin
+* Added Offload Media Pluggin (Google Cloud Storage, Amazone S3, Digitalocean Space)
+* All Woo requiry Plugin Added
 
 #### 0.2 (2021-05-04)
 * Bedrock 1.7.9
