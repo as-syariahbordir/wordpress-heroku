@@ -18,6 +18,9 @@ composer update
 
 ## Changelog
 
+#### 0.5.1 (2022-05-01)
+* Update to Wordpress 5.9.3
+
 #### 0.5 (2022-02-25)
 * Update to Wordpress 5.9.1
 * Deleted sendgrid email 1.11.9
