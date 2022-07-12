@@ -16,7 +16,7 @@ composer update
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/as-syariahbordir/wordpress-heroku)
 
-[![wp_v6.0](https://www.herokucdn.com/deploy/button.png)]
+[wp_v6.0](/web/app/uploads/wp-v6.png)
 
 ## Changelog
 
