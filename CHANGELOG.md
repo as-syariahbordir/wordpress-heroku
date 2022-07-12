@@ -1,6 +1,9 @@
 
 ## Changelog
 
+#### 0.6.0 (2022-07-20)
+* Update to Wordpress 6.0.0
+
 #### 0.5.1 (2022-05-01)
 * Update to Wordpress 5.9.3
 
