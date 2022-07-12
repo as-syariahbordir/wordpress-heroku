@@ -55,7 +55,7 @@
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
 	"squizlabs/php_codesniffer": "3.2.2",
-        "bamarni/composer-bin-plugin": "dev-master"
+        "bamarni/composer-bin-plugin": "1.5.0"
   },
   "extra": {
 	"installer-paths": {
